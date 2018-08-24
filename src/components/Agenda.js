@@ -144,7 +144,7 @@ const Agenda = () => (
             <TimelineSection
               name="Talk 3"
               time="11:15 - 11:45 AM"
-              body="Quick, to the point talks"
+              body=""
             />
             <TimelineSection
               name="Sponsors"
