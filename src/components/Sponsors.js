@@ -1,9 +1,10 @@
 import React from "react";
 import { FaPlus, FaTag } from "react-icons/lib/fa";
 
-import Nib from "../assets/images/nib.png";
-import CmdSolutions from "../assets/images/cmd.jpg";
-import Assemblient from "../assets/images/assemblient.png";
+import Nib from "../assets/images/logo-nib.png";
+import CmdSolutions from "../assets/images/logo-cmd.jpg";
+import Assemblient from "../assets/images/logo-assemblient.png";
+import Mudbath from "../assets/images/logo-mudbath.png";
 
 const Sponsors = () => (
   <section id="sponsors">
@@ -78,10 +79,18 @@ const Sponsors = () => (
         <div className="twelve columns collapsed">
           <h3>Bronze Sponsors</h3>
 
-            <div className="portfolio-item">
+            <div className="columns portfolio-item offset-3">
               <div className="item-wrap silver">
                 <a href="http://www.assemblient.com/" title="Assemblient">
                   <img alt="Assemblient" src={Assemblient} />
+                </a>
+              </div>
+            </div>
+
+            <div className="columns portfolio-item pull-left">
+              <div className="item-wrap silver">
+                <a href="https://www.mudbath.com.au/" title="mudbath">
+                  <img alt="mudbath" src={Mudbath} />
                 </a>
               </div>
             </div>
