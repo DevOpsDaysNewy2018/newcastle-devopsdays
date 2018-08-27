@@ -1494,7 +1494,7 @@ ul#nav li.current a {
 
 #agenda-timeline {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: center;
 }
 
