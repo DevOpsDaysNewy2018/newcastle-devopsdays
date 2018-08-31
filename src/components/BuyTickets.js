@@ -26,7 +26,7 @@ const BuyTickets = () => (
       </div>
       <div className="text">
         <p>
-          The DevOpsDays Newcastle’s diversity scholarship program provides support to those from traditionally underrepresented and/or marginalized groups in the technology and/or open source communities who may not otherwise have the opportunity to attend DevOpsDays events for financial reasons.
+          Thanks to the REA Group the 2018 DevOpsDays Newcastle’s diversity scholarship program provides support to those from traditionally underrepresented and/or marginalized groups in the technology and/or open source communities who may not otherwise have the opportunity to attend DevOpsDays events for financial reasons.
         </p>
         <p>
           Equal access and diversity are important to the DevOpsDays Newcastle conference, and we aim to remove this obstacle. We want you at our events, and we want to help you get there! Scholarships are awarded based on a combination of need and impact. Selection is limited and will be made by a group of reviewers who will assess each applicant’s request.
