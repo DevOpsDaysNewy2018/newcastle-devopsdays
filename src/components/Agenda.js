@@ -11,30 +11,31 @@ const Agenda = () => (
     <div className="row">
       <div className="text">
         <div id="agenda-timeline">
-          <div id="agenda-timeline-left">
+          <div className="agenda-timeline-day">
             <TimelineHeader name="Day 1" />
             <TimelineSection
               name="Registration"
               time="8:00 - 9:00 AM"
-              body="Pick up your badges"
             />
             <TimelineSection
               name="Welcome"
               time="9:00 - 9:15 AM"
-              body=""
             />
+            
             <TimelineSection
               name="Keynote"
+              speakers="David McRaney"
               time="9:15 - 10:00 AM"
-              body="Out of industry Keynote speaker"
             />
+
             <TimelineSection
               name="Sponsors"
               time="10:00 - 10:10 AM"
               body=""
             />
             <TimelineSection
-              name="Talk 2"
+              name="10 Years of DevOps - How Did We Get Here and Where Are We Going?"
+              speakers="Matt Ray"
               time="10:10 - 10:40 AM"
               body=""
             />
@@ -64,7 +65,8 @@ const Agenda = () => (
               body="Catered Lunch"
             />
             <TimelineSection
-              name="Talk 3"
+              name="Agile Chatbots"
+              speakers="Shilpa Cheruvu, Jemimah Irvin & Hailey Martin"
               time="12:55 - 13:25 PM"
               body=""
             />
@@ -94,8 +96,14 @@ const Agenda = () => (
               body=""
             />
             <TimelineSection
-              name="Close Day & Logistics"
+              name="Failure Is Not An Option (It's a Core Feature!)"
+              speakers="James Boswell"
               time="16:20 - 16:50 PM"
+              body=""
+            />
+            <TimelineSection
+              name="Closing Remarks"
+              time="16:50 - 17:00 PM"
               body=""
             />
             <TimelineSection
@@ -103,13 +111,13 @@ const Agenda = () => (
               time="19:00 PM"
               body="Fun & Games at NEX"
             />
+
           </div>
-          <div id="agenda-timeline-right">
+          <div className="agenda-timeline-day">
             <TimelineHeader name="Day 2" />
             <TimelineSection
               name="Registration"
               time="8:00 - 9:00 AM"
-              body="Pick up your badges"
             />
             <TimelineSection
               name="Welcome"
@@ -118,8 +126,9 @@ const Agenda = () => (
             />
             <TimelineSection
               name="Keynote"
+              speakers="Aurynn Shaw"
               time="9:15 - 10:00 AM"
-              body="Inside industry Keynote speaker"
+              body=""
             />
             <TimelineSection
               name="Sponsors"
@@ -127,7 +136,8 @@ const Agenda = () => (
               body=""
             />
             <TimelineSection
-              name="Talk 2"
+              name="Hacking Major Companies for Fun and Profit"
+              speakers="Rhys Elsmore"
               time="10:10 - 10:40 AM"
               body=""
             />
@@ -142,7 +152,8 @@ const Agenda = () => (
               body="Present your ideas for open spaces"
             />
             <TimelineSection
-              name="Talk 3"
+              name="From A and B to ~150 Microservices, The Journey and Learnings"
+              speakers="Geshan Manandhar"
               time="11:15 - 11:45 AM"
               body=""
             />
@@ -157,7 +168,8 @@ const Agenda = () => (
               body="Catered Lunch"
             />
             <TimelineSection
-              name="Talk 4"
+              name="DevOps for Data Science"
+              speakers="Damian Brady"
               time="12:55 - 13:25 PM"
               body=""
             />
@@ -187,32 +199,43 @@ const Agenda = () => (
               body=""
             />
             <TimelineSection
-              name="Conference Close"
+              name="Closing Remarks"
               time="16:20 - 16:50 PM"
               body=""
             />
           </div>
         </div>
-        <p>
-          We will be announcing speakers closer to the date - follow us on <a href="https://www.twitter.com/devopsdaysnewy">Twitter</a> for up-to-date announcements!
-        </p>
       </div>
     </div>
   </section>
 );
 
 const TimelineHeader = (props) => (
-  <section className="timeline-header">
+  <section className="timeline-header timeline-section">
     <h3>{props.name}</h3>
   </section>
 );
 
-const TimelineSection = (props) => (
-  <section className="timeline-section-header">
-    <h4>{props.name}</h4>
-    <h5>{props.time}</h5>
-    <p>{props.body}</p>
-  </section>
-);
+const TimelineSection = (props) => {
+  let topic = <div><h4>{props.name}</h4></div>;
+  let url = `/speakers#${props.speakers}`;
+  if (props.speakers) {
+    topic = 
+      <div>
+        <a href={url}>
+          <h4>{props.speakers}</h4>
+          <h5 className="title">{props.name}</h5>
+        </a>
+      </div>
+  }
+
+  return (
+    <section className="timeline-section">
+      <p className="time">{props.time}</p>
+      {topic}
+      <p>{props.body}</p>
+    </section>
+  );
+};
 
 export default Agenda;

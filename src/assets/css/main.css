@@ -1498,20 +1498,33 @@ ul#nav li.current a {
   justify-content: center;
 }
 
-#agenda-timeline-left {
-  width: auto;
-  padding-right: 80px;
+#agenda-timeline .agenda-timeline-day {
+  flex: 1;
+  padding-right: 2em;
 }
 
-#agenda-timeline-right {
-  padding-bottom: 50px;
-  border-left: 5px solid black;
-  padding-left: 80px;
-  position: relative;
+#agenda-timeline .agenda-timeline-day:last-child {
+  border-left: 4px solid #95a3a3;
+  padding-left: 2em;
 }
 
-#agenda-timeline .timeline-header {
-  text-transform: uppercase;
+#agenda-timeline .agenda-tablist {
+  display: none;
+}
+
+#agenda-timeline .timeline-section {
+  border-bottom: 1px dotted #95a3a3;
+  margin-bottom: 2em;
+}
+
+#agenda-timeline .time {
+  font: 19px/36px 'opensans-light', sans-serif;
+  margin-bottom: 8px;
+}
+
+#agenda-timeline .title {
+  font-style: italic;
+  color: #666;
 }
 
 #submit::before {
@@ -2318,6 +2331,72 @@ footer .social li:first-child {
   font: 18px/21px "opensans-semibold", sans-serif;
   color: #fff;
 }
+
+/* ------------------------------------------------------------------ */
+/* j. Speakers
+/* ------------------------------------------------------------------ */
+#speakers {
+  background: #2b2b2b;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+#speakers a,
+#speakers a:visited {
+  color: #fff;
+}
+
+#speakers a:hover,
+#speakers a:focus {
+  color: #11abb0;
+}
+
+#speakers h2 {
+  font: 22px/30px "opensans-bold", sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+#speakers p {
+  line-height: 30px;
+  color: #aaaaaa;
+}
+
+#speakers h3 {
+  font: 18px/21px "opensans-semibold", sans-serif;
+  color: #fff;
+}
+
+#speakers h4 {
+  font: 16px/18px "opensans-semibold", sans-serif;
+  color: #aaa;
+  margin-bottom: 2em;
+}
+
+#speakers h5 {
+  font: 16px/18px "opensans-semibold", sans-serif;
+  color: #fff;
+}
+
+.speakers-social {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.speakers-social li {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0;
+  padding: 0.8em;
+  color: #f06000;
+}
+
+.speaker { 
+  padding-bottom: 2em;
+}
+
 
 /* ==================================================================
 
