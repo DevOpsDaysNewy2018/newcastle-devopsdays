@@ -22,9 +22,9 @@ const Sponsors = () => (
 
     <div className="row">
       <div className="text">
-        // <p>
-        // We greatly value sponsors for this open event. If you are interested in sponsoring, please drop us an email at [ <a href="mailto:organizers-newcastle-2018@devopsdays.org">organizers-newcastle-2018@devopsdays.org</a> ].
-        // </p>
+        {/* <p>
+        We greatly value sponsors for this open event. If you are interested in sponsoring, please drop us an email at [ <a href="mailto:organizers-newcastle-2018@devopsdays.org">organizers-newcastle-2018@devopsdays.org</a> ].
+        </p>*/}
         <p>
         Sponsorship is now closed.
         </p>
@@ -41,9 +41,9 @@ const Sponsors = () => (
         The best thing to do is send engineers to interact with the experts at devopsdays on their own terms.
         </p>
 
-        // <p>
-        // <a href='https://drive.google.com/file/d/1HP3JwyC76cQr_3GUs1F7e_rGknfls3jf/view?usp=sharing'>Our sponsorship prospectus can be downloaded here</a>
-        // </p>
+        {/*<p>
+        <a href='https://drive.google.com/file/d/1HP3JwyC76cQr_3GUs1F7e_rGknfls3jf/view?usp=sharing'>Our sponsorship prospectus can be downloaded here</a>
+        </p>*/}
       </div>
 
       <hr/>
