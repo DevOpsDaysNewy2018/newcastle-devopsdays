@@ -13,7 +13,7 @@ import Vibrato from "../assets/images/vibrato-logo.png";
 import LWB from "../assets/images/LWB.png";
 import DIUS from "../assets/images/dius.png";
 import Hudson from "../assets/favicon.png";
-import SumoLogic from "../assets/favicon.png";
+import SumoLogic from "../assets/images/logo-sumologic.png";
 import PagerDuty from "../assets/favicon.png";
 
 const Sponsors = () => (
