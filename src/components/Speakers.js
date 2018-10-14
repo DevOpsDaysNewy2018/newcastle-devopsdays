@@ -9,6 +9,7 @@ import jamesboswell from "../assets/images/james-boswell.jpg";
 import damianbrady from "../assets/images/damian-brady.png";
 import mollyrowe from "../assets/images/molly-rowe.png";
 import anthonyborton from "../assets/images/anthony-borton.png";
+import kjtsanaktsidis from "../assets/images/KJTsanaktsidis.jpg";
 
 const SpeakersList = [
   {
@@ -113,7 +114,7 @@ const SpeakersList = [
   {
     name: "KJ Tsanaktsidis",
     id: "kj-tsanaktsidis",
-    image: nopic,
+    image: kjtsanaktsidis,
     twitter: "",
     url: "",
     title: "Senior Ops Engineer at Zendesk",
