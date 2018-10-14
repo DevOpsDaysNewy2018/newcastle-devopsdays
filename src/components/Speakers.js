@@ -116,7 +116,7 @@ const SpeakersList = [
     image: nopic,
     twitter: "",
     url: "",
-    title: "Ops Engineer",
+    title: "Senior Ops Engineer at Zendesk",
     about: "I’m an ops engineer currently at Zendesk, where I work on infrastructure and application reliability, performance, and security.",
     talk: "Continuous profiling for Go applications: how it helped us fix problems we didn’t know we had ",
     summary: "This talk is the story of why we enabled Stackdriver continuous profiling for our Go application, and how its data helped us to triple the throughput of one part of our application. It turns out the best profiler is the one that’s actually running when you need it!"
