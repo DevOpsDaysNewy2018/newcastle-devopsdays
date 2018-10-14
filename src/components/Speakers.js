@@ -7,6 +7,8 @@ import aurynnshaw from "../assets/images/aurynn.jpg";
 import geshanmanandhar from "../assets/images/geshan-manandhar.jpg";
 import jamesboswell from "../assets/images/james-boswell.jpg";
 import damianbrady from "../assets/images/damian-brady.png";
+import mollyrowe from "../assets/images/molly-rowe.png";
+import anthonyborton from "../assets/images/anthony-borton.png";
 
 const SpeakersList = [
   {
@@ -34,7 +36,7 @@ const SpeakersList = [
   {
     name: "Anthony Borton",
     id: "anthony-borton",
-    image: nopic,
+    image: anthonyborton,
     twitter: "https://twitter.com/AnthonyBorton",
     url: "http://www.myalmblog.com",
     title: "DevOps Architect at Microsoft",
@@ -100,7 +102,7 @@ const SpeakersList = [
   {
     name: "Molly Rowe",
     id: "molly-rowe",
-    image: nopic,
+    image: mollyrowe,
     twitter: "https://twitter.com/mulvina_rowe",
     url: "",
     title: "Community Manager at Vibrato",
@@ -151,6 +153,17 @@ const SpeakersList = [
     about: "",
     talk: "Unicorn tools: a safety guide for regular ponies",
     summary: "Everybody knows that to keep up with the latest conference talk hotness from unicorn companies they need Kubernetes, a service mesh, distributed tracing, and a dozen other amazing toys… but some of those can injure or maim regular ponies with a full time ops staff of zero. What’s safe, and when?"
+  },
+  {
+    name: "Sandor Agafanoff",
+    id: "sandor-agafanoff",
+    image: nopic,
+    twitter: "https://twitter.com/k_parsnip",
+    url: "",
+    title: "",
+    about: "Software engineer for the last 15 years, working for enterprises, consultancies and startups. Passionate about event driven architecture and software delivery methodology.",
+    talk: "Stability and Innovation with Event-driven Architecture",
+    summary: "A brief overview of how event driven architecture is shaping modern systems as size and complexity is continuously growing."
   },
 ];
 

@@ -82,6 +82,8 @@ const Agenda = () => (
                   - Sidecars for everyone</li>
                 <li><a href="/speakers#garth-kidd">Garth Kidd</a>
                   - Unicorn tools; a safety guide for regular ponies</li>
+                <li><a href="/speakers#sandor-agafanoff">Sandor Agafanoff</a>
+                  - Stability and Innovation with Event-driven Architecture</li>
               </ul>
             </section>
             <TimelineSection
