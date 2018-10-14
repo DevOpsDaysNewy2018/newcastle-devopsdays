@@ -123,7 +123,7 @@ const SpeakersList = [
     summary: "This talk is the story of why we enabled Stackdriver continuous profiling for our Go application, and how its data helped us to triple the throughput of one part of our application. It turns out the best profiler is the one that’s actually running when you need it!"
   },
   {
-    name: "Laughing Mind",
+    name: "Brian Hill",
     id: "laughing-mind",
     image: nopic,
     twitter: "https://twitter.com/laughingmind",

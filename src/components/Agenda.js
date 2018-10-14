@@ -76,7 +76,7 @@ const Agenda = () => (
                   - Distributed Culture: from beer to babies and back again</li>
                 <li><a href="/speakers#kj-tsanaktsidis">KJ Tsanaktsidis</a>
                   - Continuous profiling for Go applications: how it helped us fix problems we didn’t know we had</li>
-                <li><a href="/speakers#laughing-mind">Laughing Mind</a>
+                <li><a href="/speakers#laughing-mind">Brian Hill</a>
                   - FeedMe! The rise of DigitalHumans and DevOps implications</li>
                 <li><a href="/speakers#matthew-murphy">Matthew Murphy</a>
                   - Sidecars for everyone</li>
