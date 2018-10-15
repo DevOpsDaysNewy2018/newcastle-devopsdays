@@ -156,8 +156,8 @@ const SpeakersList = [
     summary: "Everybody knows that to keep up with the latest conference talk hotness from unicorn companies they need Kubernetes, a service mesh, distributed tracing, and a dozen other amazing toys… but some of those can injure or maim regular ponies with a full time ops staff of zero. What’s safe, and when?"
   },
   {
-    name: "Sandor Agafanoff",
-    id: "sandor-agafanoff",
+    name: "Sandor Agafonoff",
+    id: "sandor-agafonoff",
     image: nopic,
     twitter: "https://twitter.com/k_parsnip",
     url: "",
