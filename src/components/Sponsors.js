@@ -15,6 +15,7 @@ import DIUS from "../assets/images/dius.png";
 import SumoLogic from "../assets/images/logo-sumologic.png";
 import PagerDuty from "../assets/images/PagerDuty_logo_GREEN.png";
 import Hudson from "../assets/images/hudson_logo_2016_TEAL.png";
+import NewcastleCouncil from "../assets/images/logo-newcastle.png";
 
 const Sponsors = () => (
   <section id="sponsors">
@@ -190,8 +191,13 @@ const Sponsors = () => (
         <div className="twelve columns collapsed">
           <h3>Community Sponsors</h3>
 
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-quarters cf">
+          <div id="portfolio-wrapper" className="cf align-center">
             <div className="columns portfolio-item">
+              <div className="item-wrap silver">
+                <a href="http://www.newcastle.nsw.gov.au/Home" title="Newcastle City Council">
+                  <img alt="Newcastle City Council" src={NewcastleCouncil} />
+                </a>
+              </div>
             </div>
           </div>
         </div>
