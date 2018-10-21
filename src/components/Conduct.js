@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "gatsby-link";
 
 import logo from "../assets/images/DevOpsNewy_WHITE_TALL.png";
 
@@ -12,6 +13,7 @@ const Conduct = () => (
         <h2>DevOpsDays Newcastle 2018 - Code of Conduct</h2>
 
         <h3 id="anti-harassment-policy">ANTI-HARASSMENT POLICY</h3>
+        <p>Report a breach of code of conduct <Link to='report-conduct'>here</Link></p>
 
         <p>
           Devopsdays is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation,
