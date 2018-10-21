@@ -2131,6 +2131,7 @@ call-to-action .button {
 #contact form {
   margin-bottom: 30px;
 }
+/*
 #contact label {
   font: 15px/24px "opensans-bold", sans-serif;
   margin: 12px 0;
@@ -2138,13 +2139,13 @@ call-to-action .button {
   display: inline-block;
   float: left;
   width: 26%;
-}
+} */
 #contact input,
 #contact textarea,
 #contact select {
   padding: 18px 20px;
   color: #eee;
-  background: #373233;
+  /* background: #373233; */
   margin-bottom: 42px;
   border: 0;
   outline: none;
@@ -2158,7 +2159,7 @@ call-to-action .button {
   color: #fff;
   background-color: #11abb0;
 }
-#contact button.submit {
+/* #contact button.submit {
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
@@ -2173,7 +2174,7 @@ call-to-action .button {
 #contact button.submit:hover {
   color: #0d0d0d;
   background: #fff;
-}
+} */
 #contact span.required {
   color: #11abb0;
   font-size: 13px;
@@ -2357,8 +2358,21 @@ footer .social li:first-child {
   color: #fff;
 }
 
+#success {
+  background: #2b2b2b;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  min-height: 100vh;
+}
+#success h2 {
+  font: 22px/30px "opensans-bold", sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
 /* ------------------------------------------------------------------ */
-/* j. Speakers
+/* k. Speakers
 /* ------------------------------------------------------------------ */
 #speakers {
   background: #2b2b2b;
@@ -2419,10 +2433,62 @@ footer .social li:first-child {
   color: #f06000;
 }
 
-.speaker { 
+.speaker {
   padding: 3rem 2rem;
 }
 
+/* ------------------------------------------------------------------ */
+/* l. Report Conduct
+/* ------------------------------------------------------------------ */
+
+#report-conduct {
+  background: #ebeeee;
+  padding: 60px;
+}
+
+#report-conduct h1 {
+  font: 22px/24px "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #95a3a3;
+  font-weight: bold;
+}
+#report-conduct {
+  background: #2b2b2b;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+#report-conduct label {
+  color: #838C95;
+}
+
+#report-conduct a,
+#report-conduct a:visited {
+  color: #fff;
+}
+#report-conduct a:hover,
+#report-conduct a:focus {
+  color: #11abb0;
+}
+
+#report-conduct h2 {
+  font: 22px/30px "opensans-bold", sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
+#report-conduct p {
+  line-height: 30px;
+  color: #aaaaaa;
+}
+#report-conduct h3 {
+  font: 18px/21px "opensans-semibold", sans-serif;
+  color: #fff;
+}
 
 /* ==================================================================
 
