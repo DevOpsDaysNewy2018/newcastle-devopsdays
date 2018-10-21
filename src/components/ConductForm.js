@@ -11,7 +11,7 @@ const ConductForm = (props) => (
         <div className="nine columns main-col">
             <h2>DevOpsDays Newcastle 2018 - Report a breach</h2>
             <section>
-                <form name="report-conduct" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
+                <form name="report-conduct" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field" netlify>
 
                     <input type="hidden" name="bot-field" />
 
