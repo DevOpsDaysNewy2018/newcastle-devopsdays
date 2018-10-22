@@ -130,7 +130,7 @@ const Agenda = () => (
             />
             <TimelineSection
               name="Evening Social Event"
-              time="19:00"
+              time="19:00 - 22:00"
               body="Fun & Games at NEX"
             />
 
