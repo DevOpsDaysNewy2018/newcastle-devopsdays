@@ -10,6 +10,7 @@ import damianbrady from "../assets/images/damian-brady.png";
 import mollyrowe from "../assets/images/molly-rowe.png";
 import anthonyborton from "../assets/images/anthony-borton.png";
 import kjtsanaktsidis from "../assets/images/KJTsanaktsidis.jpg";
+import maltmurphy from "../assets/images/maltmurphy.jpg";
 
 const SpeakersList = [
   {
@@ -136,7 +137,7 @@ const SpeakersList = [
   {
     name: "Matthew Murphy",
     id: "matthew-murphy",
-    image: nopic,
+    image: maltmurphy,
     twitter: "https://twitter.com/maltmurphy",
     url: "",
     title: "Lead Software Developer",
