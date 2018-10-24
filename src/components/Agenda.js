@@ -99,20 +99,36 @@ const Agenda = () => (
               body=""
             />
             <TimelineSection
-              name="Afternoon Tea"
-              time="14:20 - 14:50"
-              body=""
-            />
-            <TimelineSection
               name="Open Space Intro"
-              time="14:50 - 15:05"
+              time="14:20 - 14:35"
               body=""
             />
             <TimelineSection
+              name="Afternoon Tea"
+              time="14:35 - 15:05"
+              body=""
+            />
+            {/* <TimelineSection
               name="Open Space 1"
               time="15:05 - 15:45"
               body=""
-            />
+            /> */}
+            <section className="timeline-section">
+              <p className="time">15:05 - 15:45</p>
+              <div><h4>Open Space 1</h4></div>
+              <ul>
+                <li>1) How to collaborate across distributed teams, tools &amp; techniques</li>
+              </ul>
+              <ul>
+                <li>2) Serverless, No-Ops?</li>
+              </ul>
+              <ul>
+                <li>3) How to train people in DevOps</li>
+              </ul>
+              <ul>
+                <li>4) A chat about measuring DevOps - When is the automation done?</li>
+              </ul>
+            </section>
             <TimelineSection
               name="Open Space 2"
               time="15:45 - 16:30"
