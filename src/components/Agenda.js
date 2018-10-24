@@ -129,16 +129,48 @@ const Agenda = () => (
                 <li>4) A chat about measuring DevOps - When is the automation done?</li>
               </ul>
             </section>
-            <TimelineSection
+            {/*<TimelineSection
               name="Open Space 2"
               time="15:45 - 16:30"
               body=""
-            />
-            <TimelineSection
+            /> */}
+            <section className="timeline-section">
+              <p className="time">15:45 - 16:30</p>
+              <div><h4>Open Space 2</h4></div>
+              <ul>
+                <li>1) Patterns vs. Freedom</li>
+              </ul>
+              <ul>
+                <li>2) Leadership and management in a DevOps world</li>
+              </ul>
+              <ul>
+                <li>3) Shifting testing left + test automation</li>
+              </ul>
+              <ul>
+                <li>4) Hybrid cloud architecture - challenges faced and solutions</li>
+              </ul>
+            </section>
+            {/* <TimelineSection
               name = "Open Space 3"
               time="16:30 - 17:00"
               body=""
-            />
+            /> */}
+            <section className="timeline-section">
+              <p className="time">16:30 - 17:00</p>
+              <div><h4>Open Space 3</h4></div>
+              <ul>
+                <li>1) DevSecOps and how teams are shifting left on DevOps</li>
+              </ul>
+              <ul>
+                <li>2) Running stateful DBs in the cloud</li>
+              </ul>
+              <ul>
+                <li>3) Bringing #Newcastle tech community together</li>
+              </ul>
+              <ul>
+                <li>4) Unconscious bias affecting orgs</li>
+              </ul>
+            </section>
             <TimelineSection
               name="Closing Remarks"
               time="17:00 - 17:10"
