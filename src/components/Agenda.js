@@ -252,26 +252,74 @@ const Agenda = () => (
               time="13:30 - 13:45"
               body=""
             />
-            <TimelineSection
+            <section className="timeline-section">
+              <p className="time">13:45 - 14:30</p>
+              <div><h4>Open Space 1</h4></div>
+              <ul>
+                <li>1) Kubernetes - Successes & Failures</li>
+              </ul>
+              <ul>
+                <li>2) Scaling Agile beyond a single team</li>
+              </ul>
+              <ul>
+                <li>3) Best practise use of Slack, Jira etc</li>
+              </ul>
+              <ul>
+                <li>4) Approach to Security + Incident Response</li>
+              </ul>
+            </section>
+            {/*<TimelineSection
               name="Open Space 1"
               time="13:45 - 14:30"
               body=""
-            />
+            />*/}
             <TimelineSection
               name="Afternoon Tea"
               time="14:30 - 15:00"
               body=""
             />
-            <TimelineSection
+            {/*<TimelineSection
               name="Open Space 2"
               time="15:00 - 15:45"
               body=""
-            />
-            <TimelineSection
+            />*/}
+            <section className="timeline-section">
+              <p className="time">15:00 - 15:45</p>
+              <div><h4>Open Space 2</h4></div>
+              <ul>
+                <li>1) </li>
+              </ul>
+              <ul>
+                <li>2) </li>
+              </ul>
+              <ul>
+                <li>3) </li>
+              </ul>
+              <ul>
+                <li>4) </li>
+              </ul>
+            </section>
+            {/* <TimelineSection
               name="Open Space 3"
               time="15:45 - 16:30"
               body=""
-            />
+            /> */}
+            <section className="timeline-section">
+              <p className="time">15:45 - 16:30</p>
+              <div><h4>Open Space 3</h4></div>
+              <ul>
+                <li>1) </li>
+              </ul>
+              <ul>
+                <li>2) </li>
+              </ul>
+              <ul>
+                <li>3) </li>
+              </ul>
+              <ul>
+                <li>4) </li>
+              </ul>
+            </section>
             <TimelineSection
               name="Closing Remarks"
               time="16:30 - 17:00"
