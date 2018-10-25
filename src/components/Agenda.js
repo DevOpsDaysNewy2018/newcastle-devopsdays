@@ -287,16 +287,16 @@ const Agenda = () => (
               <p className="time">15:00 - 15:45</p>
               <div><h4>Open Space 2</h4></div>
               <ul>
-                <li>1) </li>
+                <li>1) Experimentation Driven Development</li>
               </ul>
               <ul>
-                <li>2) </li>
+                <li>2) Ethics in Tech</li>
               </ul>
               <ul>
-                <li>3) </li>
+                <li>3) Microservices - How to do it?</li>
               </ul>
               <ul>
-                <li>4) </li>
+                <li>4) Measurements - Trouble, visibility, performance</li>
               </ul>
             </section>
             {/* <TimelineSection
@@ -308,16 +308,16 @@ const Agenda = () => (
               <p className="time">15:45 - 16:30</p>
               <div><h4>Open Space 3</h4></div>
               <ul>
-                <li>1) </li>
+                <li>1) DevOps for Data Science</li>
               </ul>
               <ul>
-                <li>2) </li>
+                <li>2) Tools tools tools!</li>
               </ul>
               <ul>
-                <li>3) </li>
+                <li>3) Product driven development</li>
               </ul>
               <ul>
-                <li>4) </li>
+                <li>4) Chaos Engineering</li>
               </ul>
             </section>
             <TimelineSection
